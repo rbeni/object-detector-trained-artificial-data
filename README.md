@@ -10,6 +10,8 @@ Instead of using real images, I decided to test creating a dataset with artifici
 
 The idea came from a few examples I had seen on the internet applied to other problems. A notable one was the example given by Tesla, where they created an entire simulation for their self-driving AI.
 
+This repository contains only a few of the files used in the project, mainly a sample of the real images, one of the datasets and one of the training scripts.
+
 ## File description
 
 	.
@@ -31,3 +33,13 @@ The idea came from a few examples I had seen on the internet applied to other pr
 	|	├── create_tfrecord.ipynb	# Code to create a tfrecord file for each dataset
 	|	├── generate_yolo_labels.ipynb	# Code to create labels from rendered masks for the artificial images
 	
+
+## Prerequisites
+Running this project requires:
+* tensorflow
+* torch
+* ultralytics
+* Ipython.display
+* opencv-python
+* matplotlib
+* numpy
